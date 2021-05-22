@@ -1,0 +1,19 @@
+.layout {
+    background-color: white;
+    min-height: 70vh;
+    border-radius: 12px;
+    margin: 10px auto auto;
+    text-align: center;
+}
+
+@media (min-width: 575px) {
+    .layout {
+        width: 460px;
+    }
+}
+
+@media (min-width: 800px) {
+    .layout {
+        width: 640px;
+    }
+}

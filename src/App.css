@@ -1,0 +1,30 @@
+.App {
+    min-height: 70px;
+    width: 80%;
+    border-radius: 12px;
+    margin: 30px auto auto;
+}
+
+@media (min-width: 575px) {
+    .App {
+        width: 460px;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .App {
+        width: 640px;
+    }
+}
+
+.fab {
+    top: 10px;
+    left: 2000px;
+    transition: transform 1s;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}

@@ -1,0 +1,18 @@
+.tab-menu {
+    margin: auto;
+    border-radius: 12px;
+    width: 80%;
+}
+
+@media (min-width: 575px) {
+    .tab-menu {
+        width: 460px;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .layout {
+        width: 640px;
+    }
+}
