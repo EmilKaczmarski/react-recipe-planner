@@ -1,6 +1,5 @@
 import {Button, TextField} from "@material-ui/core";
-import Strings from "../../../Extensions/Strings";
-import modules from "./AddIngredient.module.css";
+import Colors from "../../../Extensions/Colors";
 
 const AddIngredient = () => {
 
@@ -17,7 +16,7 @@ const AddIngredient = () => {
     }
 
     const containerStyle = {
-        border: "1px solid #B4DBDC",
+        border: "1px solid " + Colors.lightGreen,
         borderRadius: "20px",
         textAlign: "center",
 
@@ -26,7 +25,7 @@ const AddIngredient = () => {
         disabled: "flex"
     }
 
-    const bottomButtonStye = {
+    const bottomButtonStyle = {
         textAlign: "left",
         marginTop: 10,
         marginBottom: 10
@@ -73,8 +72,8 @@ const AddIngredient = () => {
                 }}
             />
             </div>
-            <div style={bottomButtonStye}>
-                <Button color={"primary"} pm>
+            <div style={bottomButtonStyle}>
+                <Button color={"primary"}>
                     <i className="far fa-trash-alt"/>
                 </Button>
             </div>
